@@ -10,7 +10,7 @@ spec:
   selector:
     matchLabels:
       app: myjob
-  replicas: 1
+  replicas: 5
   strategy:
     rollingUpdate:
       maxSurge: 25%
